@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+{% block header %}
+    <a href="{{ path('product_page') }}"> Produits </a>
+{% endblock %}
+{% block body %}
+    <ul>
+        {% for product in FiveLastProducts %}
+            <li class="squared-content-home">
+                <a class="title-product-link" href="{{ path('product_single', {id: product.id}) }}">
+                    <img width=100px; src="/uploads/{{ product.image }}" alt="">
+                    <p>{{ product.name }}</p>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock body %}

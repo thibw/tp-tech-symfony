@@ -1,0 +1,39 @@
+*{
+    list-style: none;
+}
+a {
+    color:initial ;
+    text-decoration: none;
+}
+a:visited {
+    color:initial ;
+    text-decoration: none;
+}
+a:hover {
+    color:initial ;
+    text-decoration: none;
+}
+a:active {
+    color:initial ;
+    text-decoration: none;
+}
+
+header{
+    background-color: #2d3443;
+    width: 100%;
+    padding: 1px;
+}
+.header-font a{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    color: white;
+    margin: 3% 0 2.5% 7%;
+}
+.squared-content-home{
+    display: inline-block;
+    margin:20px;
+}
+.title-product-link{
+    color: white;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hc3NldHMvY3NzL2FwcC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7Q0FDcEI7QUFDRDtJQUNJLGVBQWU7SUFDZixzQkFBc0I7Q0FDekI7QUFDRDtJQUNJLGVBQWU7SUFDZixzQkFBc0I7Q0FDekI7QUFDRDtJQUNJLGVBQWU7SUFDZixzQkFBc0I7Q0FDekI7QUFDRDtJQUNJLGVBQWU7SUFDZixzQkFBc0I7Q0FDekI7O0FBRUQ7SUFDSSwwQkFBMEI7SUFDMUIsWUFBWTtJQUNaLGFBQWE7Q0FDaEI7QUFDRDtJQUNJLDhDQUE4QztJQUM5QyxhQUFhO0lBQ2IscUJBQXFCO0NBQ3hCIiwiZmlsZSI6ImNzcy9hcHAuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiKntcbiAgICBsaXN0LXN0eWxlOiBub25lO1xufVxuYSB7XG4gICAgY29sb3I6aW5pdGlhbCA7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuYTp2aXNpdGVkIHtcbiAgICBjb2xvcjppbml0aWFsIDtcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG59XG5hOmhvdmVyIHtcbiAgICBjb2xvcjppbml0aWFsIDtcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG59XG5hOmFjdGl2ZSB7XG4gICAgY29sb3I6aW5pdGlhbCA7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuXG5oZWFkZXJ7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzJkMzQ0MztcbiAgICB3aWR0aDogMTAwJTtcbiAgICBwYWRkaW5nOiAxcHg7XG59XG4uaGVhZGVyLWZvbnQgYXtcbiAgICBmb250LWZhbWlseTogJ0xpYnJlIEJhcmNvZGUgMzkgVGV4dCcsIGN1cnNpdmU7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIG1hcmdpbjogMyUgMCAyLjUlIDclO1xufVxuXG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIC4vYXNzZXRzL2Nzcy9hcHAuY3NzIl0sInNvdXJjZVJvb3QiOiIifQ==*/

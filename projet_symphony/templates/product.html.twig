@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <ul>
+        {% for product in products %}
+            <li>
+                <a href="{{ path('product_single', {id: product.id}) }}">
+                    <img src="/uploads/{{ product.image }}" alt="">
+                    {{ product.name }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+

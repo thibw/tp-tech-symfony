@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('/build/css/app.css') }}">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
+        <script src="{{ asset('/build/js/app.js') }}" async></script>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        <header>
+            <h1 class="header-font"><a href="/">Catalogue du futur</a></h1>
+            {% block header %}{% endblock %}
+        </header>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
+

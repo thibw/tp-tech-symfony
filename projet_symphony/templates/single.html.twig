@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <ul>
+        <p>{{ product.id }}</p>
+        <li>{{ product.name }}</li>
+        <li>{{ product.description }}</li>
+        <li>{{ product.price }}</li>
+        <img src="/uploads/{{ product.image }}" alt="image du produit {{ product.name }}">
+    </ul>
+
+
+    {{ form_start(form) }}
+
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+    {% for comment in comments %}
+        {{ comment.author }}
+        {{ comment.comment|raw }}
+    {% endfor %}
+{% endblock %}
